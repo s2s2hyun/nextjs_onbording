@@ -12,7 +12,7 @@ Next.js 프로젝트에서 yarn start(or npm run start) 스크립트를 실행�
 https://nextjs.org/docs/getting-started (Next.js 세팅 가이드)
 https://github.com/vercel/next.js/ (Next.js Github 레포지토리)
 
-[Blog](https://velog.io/@s2s2hyun/Next.js-CSR-SPA-SSR-Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-yarn-start-%EC%97%90-%EB%8C%80%ED%95%B4)
+사전과제 Study [Blog](https://velog.io/@s2s2hyun/Next.js-CSR-SPA-SSR-Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-yarn-start-%EC%97%90-%EB%8C%80%ED%95%B4)
 
 
 

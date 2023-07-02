@@ -2,7 +2,7 @@ https://www.wanted.co.kr/events/pre_challenge_fe_11
 
 ![image](https://github.com/s2s2hyun/nextjs_onbording/assets/100761993/717cb84c-0c4d-44c0-a5b5-b1ea1f5b7e61)
 
-사전과제 
+사전과제
 
 원티드 프리온보딩 챌린지 - CSR / SSR with Next.js
 CSR(Client-side Rendering)이란 무엇이며, 그것의 장단점에 대하여 설명.
@@ -13,9 +13,6 @@ https://nextjs.org/docs/getting-started (Next.js 세팅 가이드)
 https://github.com/vercel/next.js/ (Next.js Github 레포지토리)
 
 사전과제 Study [Blog](https://velog.io/@s2s2hyun/Next.js-CSR-SPA-SSR-Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-yarn-start-%EC%97%90-%EB%8C%80%ED%95%B4)
-
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

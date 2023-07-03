@@ -2,6 +2,8 @@ https://www.wanted.co.kr/events/pre_challenge_fe_11
 
 ![image](https://github.com/s2s2hyun/nextjs_onbording/assets/100761993/717cb84c-0c4d-44c0-a5b5-b1ea1f5b7e61)
 
+노션 7월3일 ~ 7월 14일 [Notion](https://www.notion.so/progress-s2s2hyun/Wanted-Onbording-FE-403a61f448894eadb2584e2d97859a1c)
+
 사전과제
 
 원티드 프리온보딩 챌린지 - CSR / SSR with Next.js

@@ -16,6 +16,8 @@ https://github.com/vercel/next.js/ (Next.js Github 레포지토리)
 
 사전과제 Study [Blog](https://velog.io/@s2s2hyun/Next.js-CSR-SPA-SSR-Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-yarn-start-%EC%97%90-%EB%8C%80%ED%95%B4)
 
+Blog SSG 페이지 생성후 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

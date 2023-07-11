@@ -2,8 +2,6 @@ https://www.wanted.co.kr/events/pre_challenge_fe_11
 
 ![image](https://github.com/s2s2hyun/nextjs_onbording/assets/100761993/717cb84c-0c4d-44c0-a5b5-b1ea1f5b7e61)
 
-노션 7월3일 ~ 7월 14일 [Notion](https://www.notion.so/progress-s2s2hyun/Wanted-Onbording-FE-403a61f448894eadb2584e2d97859a1c)
-
 사전과제
 
 원티드 프리온보딩 챌린지 - CSR / SSR with Next.js
@@ -16,7 +14,7 @@ https://github.com/vercel/next.js/ (Next.js Github 레포지토리)
 
 사전과제 Study [Blog](https://velog.io/@s2s2hyun/Next.js-CSR-SPA-SSR-Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-yarn-start-%EC%97%90-%EB%8C%80%ED%95%B4)
 
-Blog SSG 페이지 생성후 
+Blog SSG 페이지 생성후
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

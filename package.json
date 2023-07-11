@@ -29,5 +29,8 @@
     "remark-parse": "^10.0.2",
     "typescript": "5.1.6",
     "unified": "^10.1.2"
+  },
+  "devDependencies": {
+    "sass": "^1.63.6"
   }
 }

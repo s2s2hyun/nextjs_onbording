@@ -1,15 +1,26 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import { GetStaticProps } from "next";
-import { getSortedPostsData } from "@/utils/posts";
-import { PostInfo } from "@/types/types";
 import Link from "next/link";
+import { getAllSortedPostsData } from "@/utils/posts";
+import { PostMeta } from "@/types/types";
+import styles from "@/styles/Home.module.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ posts }: { posts: PostInfo[] }) {
+const metadata = {
+  title: "Next.js Blog",
+  description: "Next.js로 만든 블로그 입니다 :)",
+};
+
+interface Props {
+  allPostsData: PostMeta[];
+}
+
+export default function Home({ allPostsData }: Props) {
+  console.log(allPostsData, "allPostsData 는? ");
+
   return (
     <>
       <Head>
@@ -18,13 +29,13 @@ export default function Home({ posts }: { posts: PostInfo[] }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        {/* <div>Onboarding 대기 7월3일 OT 12시 30분 오후 시작 </div> */}
-        {posts.map(({ id, title, date }: PostInfo) => (
-          <Link href={`posts/${id}`} key={id}>
-            {title}
-            <br />
-            {date}
+      <div className={styles.main}>
+        {allPostsData.map((post, index) => (
+          <Link href={`/${post.id}`} key={index} className={styles.card}>
+            <h2>{post.title}</h2>
+            <p>{post.author}</p>
+            <p>{post.date}</p>
+            <p>Read More</p>
           </Link>
         ))}
       </div>
@@ -32,11 +43,12 @@ export default function Home({ posts }: { posts: PostInfo[] }) {
   );
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const posts = getSortedPostsData();
+export const getStaticProps: GetStaticProps = () => {
+  const allPostsData = getAllSortedPostsData();
+
   return {
     props: {
-      posts,
+      allPostsData,
     },
   };
 };

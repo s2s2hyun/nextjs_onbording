@@ -1,12 +1,13 @@
-export interface Metadata {
+export type PostMeta = {
+  id: string;
   title: string;
   date: string;
-}
+  author: string;
+  description?: string;
+  tags?: string[];
+  categories?: string[];
+};
 
-export interface PostInfo extends Metadata {
-  id: string;
-}
-
-export interface PostData extends PostInfo {
+export type PostData = PostMeta & {
   contentHtml: string;
-}
+};

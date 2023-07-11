@@ -7,11 +7,9 @@ import { getAllSortedPostsData } from "@/utils/posts";
 import { PostMeta } from "@/types/types";
 import styles from "@/styles/Home.module.scss";
 
-const inter = Inter({ subsets: ["latin"] });
-
-const metadata = {
+const meta_Headerdata = {
   title: "Next.js Blog",
-  description: "Next.js로 만든 블로그 입니다 :)",
+  description: "Next.js로 만든 블로그 입니다 ",
 };
 
 interface Props {
@@ -19,8 +17,7 @@ interface Props {
 }
 
 export default function Home({ allPostsData }: Props) {
-  console.log(allPostsData, "allPostsData 는? ");
-
+  console.log(allPostsData);
   return (
     <>
       <Head>

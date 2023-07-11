@@ -1,4 +1,3 @@
-https://www.wanted.co.kr/events/pre_challenge_fe_11
 
 ![image](https://github.com/s2s2hyun/nextjs_onbording/assets/100761993/717cb84c-0c4d-44c0-a5b5-b1ea1f5b7e61)
 
